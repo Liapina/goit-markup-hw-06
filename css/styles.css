@@ -1,0 +1,14 @@
+body {
+    font-family: "roboto", "raleway";
+    color:
+    background-color:
+}
+ul, li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
