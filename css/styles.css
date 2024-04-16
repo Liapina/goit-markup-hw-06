@@ -1,5 +1,7 @@
 body {
   font-family: "roboto", "raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: #434455;
   background-color: #fcfcfc;
 }
@@ -33,14 +35,19 @@ button {
   line-height: 150%;
   letter-spacing: 0.02em;
 }
+.header-nav-list-item-link:hover {
+  color: #404bbf;
+}
 
 .header-adress-list-item-link {
   color: #2e2f42;
-  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   font-style: normal;
+}
+.header-adress-list-item-link:hover {
+  color: #404bbf;
 }
 /* ======= HERO ======*/
 .section-hero {
@@ -78,7 +85,6 @@ button {
   letter-spacing: 0.02em;
 }
 .solution-list-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -114,7 +120,6 @@ button {
   text-align: center;
 }
 .team-list-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -122,48 +127,46 @@ button {
 
 /* PORTFOLIO */
 .portfolio-title {
-    text-align: center;
-    font-weight: 700;
-font-size: 36px;
-line-height: 111%;
-letter-spacing: 0.02em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
 }
 .portfolio-list-item {
-    display: inline-block;
-    width: 360px;
-height: 420px;
-border: 1px solid #E7E9FC;
-text-align: center;
+  display: inline-block;
+  width: 360px;
+  height: 420px;
+  border: 1px solid #e7e9fc;
+  text-align: center;
 }
 .portfolio-list-item-title {
-    font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
 }
 .portfolio-list-item-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
 }
-
 
 /* FOOTER */
 .section-footer {
-    width: 1440px;
-height: 312px;
-background-color: #2E2F42;
-color: #ffffff;
+  width: 1440px;
+  height: 312px;
+  background-color: #2e2f42;
+  color: #ffffff;
 }
 .footer-logo {
-    font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #F4F4FD;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 .footer-logo-blue {
-    color: #4D5AE5;
+  color: #4d5ae5;
 }
