@@ -1,5 +1,5 @@
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #434455;
@@ -41,6 +41,12 @@ button {
 .header-nav-list-item-link:active {
     color: #404bbf;
 }
+.header-nav-list-item-link:focus {
+    color: #404bbf;
+}
+.header-adress {
+    font-style: normal;
+}
 .header-adress-list-item-link {
   color: #434455;
   font-size: 16px;
@@ -51,11 +57,13 @@ button {
 .header-adress-list-item-link:hover {
   color: #404bbf;
 }
+.header-adress-list-item-link:focus {
+    color: #404bbf;
+  }
 /* ======= HERO ======*/
 .section-hero {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
+ 
 }
 .section-hero-title {
   color: #ffffff;
@@ -67,11 +75,9 @@ button {
 }
 .section-hero-button {
   background-color: #4d5ae5;
-  font-family: "Roboto" sans-serif;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
+  font-family: "Roboto", sans-serif;
+  
+ 
   border: 0;
   color: #ffffff;
   font-weight: 500;
@@ -101,8 +107,6 @@ button {
 /* OUR TEAM */
 .section-team {
   background-color: #f4f4fd;
-  width: 1440px;
-  height: 732px;
 }
 .section-team-title {
   font-weight: 700;
@@ -114,13 +118,11 @@ button {
   color: #2e2f42;
 }
 .section-team-list-item {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
+  
+
   background-color: #ffffff;
   text-align: center;
-  display: inline-block;
+
 }
 .team-list-item-title {
   font-weight: 500;
@@ -146,9 +148,8 @@ button {
   color: #2e2f42;
 }
 .portfolio-list-item {
-  display: inline-block;
-  width: 360px;
-  height: 420px;
+ 
+
   border: 1px solid #e7e9fc;
   text-align: center;
 }
@@ -168,8 +169,7 @@ button {
 
 /* FOOTER */
 .section-footer {
-  width: 1440px;
-  height: 312px;
+
   background-color: #2e2f42;
   color: #ffffff;
 }
