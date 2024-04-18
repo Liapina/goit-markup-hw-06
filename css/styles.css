@@ -64,8 +64,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-left: 15px;
-  margin-right: 76px;
-
 }
 .header-nav-logo-blue {
   color: #2e2f42;
@@ -90,16 +88,21 @@ button {
 }
 .header-adress {
   font-style: normal;
-  text-align: right;
-  gap: 40px;
+  padding: 24px 0;
 }
-
 .header-adress-list-item-link {
   color: #434455;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   font-style: normal;
+ 
+}
+.header-adress-list {
+
+}
+.header-adress-list-item {
+ margin-left: 90px;
 }
 .header-adress-list-item-link:hover {
   color: #404bbf;
@@ -113,7 +116,7 @@ button {
 .section-hero {
   background-color: #2e2f42;
  text-align: center;
- padding: 188px 0
+ padding: 188px 472px;
 }
 .section-hero-title {
   color: #ffffff;
@@ -121,15 +124,14 @@ button {
   font-size: 56px;
   line-height: 107%;
   letter-spacing: 0.02em;
-  padding-bottom: 48px;
   max-width: 496px;
+  padding-bottom: 48px;
   
 }
 .section-hero-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   border-radius: 4px;
- text-align: center;
  min-width: 169px;
   height: 56px;
   border: 0;
@@ -138,7 +140,8 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-margin-bottom: 188px;
+  margin: 0 auto;
+display: block;
 }
 .section-hero-button:hover {
   background-color: #404bbf;
