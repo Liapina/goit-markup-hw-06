@@ -5,6 +5,9 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+img {
+  display: block;
+}
 ul,
 li {
   list-style-type: none;
@@ -268,6 +271,8 @@ padding-bottom: 100px;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-left: 15px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-blue {
   color: #f4f4fd;
