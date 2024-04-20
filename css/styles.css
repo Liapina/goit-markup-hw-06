@@ -168,13 +168,15 @@ button {
 
 .visually-hidden {
   position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  height: 1px;
   width: 1px;
+  height: 1px;
   margin: -1px;
-  padding: 0;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .solution-list-item-title {
   font-weight: 500;
@@ -189,7 +191,7 @@ button {
   display: flex;
   gap: 24px;
 }
-.item-calc {
+.solution-list-item {
   width: calc((1128-3 * 24) / 4);
 }
 .solution-list-item-text {
