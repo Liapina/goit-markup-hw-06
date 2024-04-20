@@ -48,7 +48,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section-paddings {
   padding: 120px 0;
@@ -166,8 +166,15 @@ button {
 
 /* =======SOLUTION======= */
 
-.solutions-hidden {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
 }
 .solution-list-item-title {
   font-weight: 500;
@@ -211,7 +218,6 @@ button {
 .team-content {
   padding: 32px 0;
 }
-
 .team-list-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -248,7 +254,7 @@ button {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 /* FOOTER */
