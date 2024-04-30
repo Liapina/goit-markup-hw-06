@@ -341,6 +341,9 @@ button {
   justify-content: center;
   gap: 16px;
 }
+.social-list-item{
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .social-list-icon {
   fill: #f4f4fd;
 }
