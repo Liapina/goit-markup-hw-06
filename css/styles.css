@@ -303,6 +303,7 @@ button {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-content {
   margin-right: 120px;
@@ -332,6 +333,7 @@ button {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
+  margin-bottom: 16px;
 }
 .social-list {
   margin-top: 16px;
