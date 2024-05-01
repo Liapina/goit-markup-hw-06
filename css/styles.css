@@ -285,7 +285,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 32px;
+  padding-top: 8px;
 }
 .team-social-item {
   height: 40px;
