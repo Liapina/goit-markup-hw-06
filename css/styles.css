@@ -160,6 +160,7 @@ button {
   padding: 188px 0 188px 0;
   max-width: 1440px;
   text-align: center;
+  margin: 0 auto;
 }
 .section-hero-title {
   color: #ffffff;
@@ -285,7 +286,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 .team-social-item {
   height: 40px;
@@ -407,7 +408,6 @@ button {
   margin-bottom: 16px;
 }
 .social-list {
-  margin-top: 16px;
   display: flex;
   justify-content: center;
   gap: 16px;
