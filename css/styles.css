@@ -593,6 +593,9 @@ button {
 .review-form-field-wrapper {
   margin-bottom: 8px;
 }
+.review-form-field-wrapper-comment {
+  margin-bottom: 16px;
+}
 .review-form-input {
 }
 .review-form-field-icon {
