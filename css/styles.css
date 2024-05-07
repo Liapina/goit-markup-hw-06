@@ -431,6 +431,63 @@ button {
 .social-list-link:focus {
   background-color: #31d0aa;
 }
+.footer-suscribe {
+  margin-left: 80px;
+}
+.footer-suscribe-title {
+  font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+color: #ffffff;
+}
+.footer-suscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.footer-suscribe-input {
+  width: 264px;
+  height: 40px; 
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.footer-suscribe-input::placeholder {
+  color #ffffff;
+}
+.footer-suscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  cursor: pointer;
+  border: none; 
+  border-radius: 4px;
+padding: 8px 24px;
+width: 165px;
+height: 40px;
+background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
+color: #ffffff;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+text-align: center;
+}
+.footer-suscribe-button-icon {
+  margin-left: 16px; 
+  fill: #ffffff;
+}
+
+
+
 /* ======= BACKDROP =======*/
 
 .backdrop {
