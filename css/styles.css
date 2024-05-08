@@ -540,10 +540,10 @@ button {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   border: none;
-  fill: #ffffff;
   background-color: #404bbf;
 }
-.modal-close-btn:hover svg {
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
   fill: #ffffff;
 }
 
