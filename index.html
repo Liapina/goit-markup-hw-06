@@ -57,9 +57,18 @@
             </li>
           </ul>
         </address>
+        <button class="btn-burger" type="button">
+          <svg class="icon-burger" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
+
+
+
+
       <!-- ====== HERO =======-->
 
       <section class="section-hero">
@@ -75,7 +84,7 @@
 
       <!-- ====== SOLUTIONS =======-->
 
-      <section class="section-solutions section-paddings">
+      <section class="hidden section-solutions section-paddings">
         <div class="container">
           <h2 class="visually-hidden">solutions</h2>
           <ul class="solution-list">
@@ -133,7 +142,7 @@
 
       <!-- ====== TEAM =======-->
 
-      <section class="section-team section-paddings">
+      <section class="hidden section-team section-paddings">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="section-team-list">
@@ -347,7 +356,7 @@
 
       <!-- =======PORTFOLIO======= -->
 
-      <section class="section-portfolio section-paddings">
+      <section class="hidden section-portfolio section-paddings">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -476,7 +485,7 @@
     </main>
     <!-- ======FOOTER====== -->
 
-    <footer class="section-footer">
+    <footer class="hidden section-footer">
       <div class="container footer-container">
         <div class="footer-content">
           <a href="./index.html" class="footer-logo">
@@ -544,7 +553,7 @@
 
     <!-- BACKDROP -->
 
-    <div class="backdrop is-open">
+    <div class="hidden backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-btn-icon" width="8" height="8">
@@ -641,5 +650,76 @@
         </form>
       </div>
     </div>
+
+
+      <!--======= MENU-MOBILE =======-->
+
+
+      <div class="hidden menu-mobile">
+        <div class="mobile">
+        <button type="button" class="mobile-close-btn">
+        <svg class="mobile-close-svg" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-list-item"> <a class="mobile-nav-list-link" href="./index.html"> Studio</a>
+            </li>
+            <li class="mobile-nav-list-item"> <a class="mobile-nav-list-link" href=""> Portfolio</a></li>
+            <li class="mobile-nav-list-item"> <a class="mobile-nav-list-link" href=""> Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="mobile-adress">
+          <ul class="mobile-adress-list">
+            <li class="mobile-adress-item">
+              <a class="mobile-adress-link" href="tel:+110001111111"> +11 (000) 111-11-11</a>
+            </li>
+             <li class="mobile-adress-item">
+              <a class="mobile-adress-link" href="mailto:info@devstudio.com"> info@devstudio.com</a>
+            </li>
+          </ul> 
+        </address>
+        <ul class="mobile-social">
+          <li class="mobile-social-item">
+            <a
+              class="mobile-social-item-link"
+              href="https://www.instagram.com/"
+            >
+              <svg class="mobile-social-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-item">
+            <a class="mobile-social-item-link" href="https://twitter.com/">
+              <svg class="mobile-social-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-item">
+            <a
+              class="mobile-social-item-link"
+              href="https://www.facebook.com/"
+            >
+              <svg class="mobile-social-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-social-item">
+            <a
+              class="mobile-social-item-link"
+              href="https://www.linkedin.com/"
+            >
+              <svg class="mobile-social-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+              </div>
   </body>
 </html>
