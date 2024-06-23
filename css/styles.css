@@ -640,7 +640,6 @@ padding-bottom: 72px;
 
    .section-portfolio {
     padding: 96px 0; 
-
    }
    .portfolio-list {
     display: flex;
@@ -715,12 +714,14 @@ padding-bottom: 72px;
     }
    }
 
+
    /* =======FOOTER======= */
+
+
    .section-footer {
     background-color: #2e2f42;
     padding: 96px 0;
     color: #F4F4FD;
-   
   }
   .footer-logo {
     display: inline-block;
@@ -879,8 +880,10 @@ padding-bottom: 72px;
     }
   }
 
+
    /* =======MODAL_MOBILE======= */
 
+   
    .backdrop {
     position: fixed;
     left: 0;
